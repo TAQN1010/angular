@@ -15,6 +15,9 @@ import { AppAtributeBindingComponent } from './component/app-atribute-binding/ap
 import { AppClassBindingComponent } from './component/app-class-binding/app-class-binding.component';
 import { AppStyleBindingComponent } from './component/app-style-binding/app-style-binding.component';
 import { AppTwoWayComponent } from './component/app-two-way/app-two-way.component';
+import { AppChildComponent } from './component/app-child/app-child.component';
+import { NgClassComponent } from './component/ng-class/ng-class.component';
+import { NgStyleComponent } from './component/ng-style/ng-style.component';
 
 const appRoutes: Routes = [ 
   { path: '', component: AppComponent }, 
@@ -31,7 +34,10 @@ const appRoutes: Routes = [
     AppAtributeBindingComponent,
     AppClassBindingComponent,
     AppStyleBindingComponent,
-    AppTwoWayComponent
+    AppTwoWayComponent,
+    AppChildComponent,
+    NgClassComponent,
+    NgStyleComponent
   ],
   imports: [
     BrowserModule,

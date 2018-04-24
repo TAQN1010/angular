@@ -1,0 +1,6 @@
+<span>
+  ID: {{person.id}}, Name: {{person.name}}
+  <input type="button" value="選ぶ" (click)="click(person);">
+</span>
+<span *ngIf="model">{{model}}: true</span>
+<span *ngIf="!model">{{model}}: false</span>
